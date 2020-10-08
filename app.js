@@ -6,14 +6,14 @@ $(function() {
         blockOffset = $(blockId).offset().top;
 
         $("html, body").animate({
-            scrollTop: blockOffset - 50
+            scrollTop: blockOffset - 50    
         }, 700);
 
     });
 
     $("[data-modal]").on("click", function(event){
         event.preventDefault();
-        
+
         $(modal_resume).addClass('show');
 
     });

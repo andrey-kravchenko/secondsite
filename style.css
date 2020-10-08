@@ -440,170 +440,203 @@ p {
     text-decoration: none;
 }
 
-.modal{
+.modal {
     display: none;
     width: 100%;
     height: 100%;
     padding: 1rem;
     overflow: auto;
+
     background-color: rgba(192, 192, 192, 0.9);
+
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
 }
 
-.show{
+.show {
     display: flex;
 }
 
-.modal_dialog{
+.modal_dialog {
     width: 100%;
     max-width: 1200px;
     text-align: center;
     margin: auto;
     position: relative;
+
     background-color: white;
 }
 
-.modal_title{
+.modal_title {
     font-size: 2rem;
     color: black;
     font-weight: bold;
     padding: 3rem 0;
 }
 
-.modal_photo{
+.modal_photo {
     width: 100%;
     height: 100%;
 }
 
-.btn_modal{
+.btn_modal {
     margin: 3rem 0;
 }
 
 @media(max-width: 1199px) {
-    .intro{
+    .intro {
         margin-top: -5rem;
     }
-    .intro_photo{
+    .intro_photo {
         width: 100%;
         position: relative;
     }
-    .intro_inner{
+
+    .intro_inner {
         display: flex;
         flex-wrap: wrap-reverse;
         padding: 5rem 0;
     }
-    .work{
-        width: 98%;  
-        margin: 1rem auto;   
-        border-radius: 1.5rem;   
+
+    .work {
+        width: 98%;
+        margin: 1rem auto;
+        border-radius: 1.5rem;
     }
-    .work_photo{
+
+    .work_photo {
         width: 100%;
     }
-    .work_cat{
+
+    .work_cat {
         font-size: 1.2rem;
     }
-    .work_title{
+
+    .work_title {
         font-size: 1.5rem;
     }
-    .about_photo{
+
+    .about_photo {
         width: 100%;
         height: 100%;
         padding-left: 1rem;
     }
-    .about_content{
+
+    .about_content {
         margin-top: 0rem;
         padding: 0 2rem;
     }
-    .about_bigtitle{
+
+    .about_bigtitle {
         font-size: 2rem;
     }
-    .about_text{
+
+    .about_text {
         font-size: 1rem;
     }
-    .course{
+
+    .course {
         width: 100%;
         margin-bottom: 3rem;
         padding: 0 1rem;
     }
-    .course_photo{
+
+    .course_photo {
         width: 100%;
     }
-    .course_name{
+
+    .course_name {
         font-size: 2rem;
     }
-    .course_cat{
+
+    .course_cat {
         font-size: 1rem;
     }
-    .course_text{
+
+    .course_text {
         font-size: 1rem;
         margin-bottom: -1rem;
     }
-    .course_link{
+
+    .course_link {
         font-size: 1.1rem;
     }
 }
 
 @media (max-width: 767px) {
-    .user{
+    .user {
         display: none;
     }
-    .nav{
+
+    .nav {
         display: flex;
         justify-content: space-around;
+
         width: 100%;
         border-bottom: 1px solid black;
         padding-bottom: 1rem;
     }
-    .nav_link{
+
+    .nav_link {
         margin: 0;
     }
-    .intro_title{
+
+    .intro_title {
         font-size: 2.2rem;
     }
-    .text_center{
+
+    .text_center {
         margin: 1rem auto;
     }
-    .works{
+
+    .works {
         margin-bottom: 2rem;
     }
-    .work_cat{
+
+    .work_cat {
         font-size: 0.7rem;
     }
-    .work_title{
+
+    .work_title {
         font-size: 0.9rem;
     }
-    .about_inner{
+
+    .about_inner {
         flex-wrap: wrap;
-        justify-content: center;   
+        justify-content: center;
     }
-    .about_photo{
+
+    .about_photo {
         min-width: 100%;
         margin: 0;
         padding: 0;
         height: 100%;
     }
-    .about_content{
-        margin-bottom: 3rem;
+
+    .about_content {
+        margin-top: 3rem;
         width: 100%;
         padding: 0 1rem;
     }
-    .courses{
+
+    .courses {
         margin-bottom: 2rem;
     }
-    .course_name{
-        font-size: 2rem;
+    .course_name {
+        font-size: 1rem;
     }
-    .course_cat{
+
+    .course_cat {
         font-size: 0.8rem;
     }
-    .footer_copyright{
+
+    .footer_copyright {
         font-size: 0.8rem;
     }
-    .footer_nav{
+
+    .footer_nav {
         display: none;
     }
 }
